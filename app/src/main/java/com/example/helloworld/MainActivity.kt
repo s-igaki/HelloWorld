@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         var helloWorldButton: Button = findViewById(R.id.button1)
         helloWorldButton.setOnClickListener{
             if (helloWorldText.text == "Hello World!") {
-                helloWorldText.text = "pushed buttton"
+                helloWorldText.text = "Android開発始めました。"
             } else {
                 helloWorldText.text = "Hello World!"
             }
